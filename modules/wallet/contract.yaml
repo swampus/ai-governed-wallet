@@ -1,0 +1,17 @@
+module: wallet
+
+responsibility:
+  manages wallet balances and transfers
+
+domain_entities:
+  - Wallet
+
+use_cases:
+  - deposit
+  - transfer
+  - get_balance
+
+dependencies:
+  - wallet-domain
+  - wallet-application
+  - wallet-api

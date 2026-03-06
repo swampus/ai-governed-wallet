@@ -1,0 +1,9 @@
+rules:
+  - name: balance_non_negative
+    description: Wallet balance must never become negative.
+
+  - name: transfer_conserves_value
+    description: A transfer must debit one wallet and credit another by the same amount.
+
+  - name: positive_deposit
+    description: Deposit amount must be strictly positive.

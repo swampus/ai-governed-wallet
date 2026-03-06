@@ -1,0 +1,12 @@
+system: ai-governed-wallet
+
+modules:
+  - wallet-domain
+  - wallet-application
+  - wallet-api
+  - architecture-validator
+
+dependencies:
+  - wallet-api -> wallet-application
+  - wallet-application -> wallet-domain
+  - architecture-validator -> wallet-domain
