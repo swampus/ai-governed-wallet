@@ -1,6 +1,6 @@
 # AI-Governed Wallet
 
-more on Medium: https://medium.com/@dmitrijs.gavrilovs.swampus/ai-is-writing-your-code-now-it-must-govern-your-architecture-83a534a9f911
+more on Medium: https://medium.com/p/83a534a9f911
 
 This repository is a small engineering experiment that combines **Clean Architecture**
 with an **AI-governed architecture layer**.
